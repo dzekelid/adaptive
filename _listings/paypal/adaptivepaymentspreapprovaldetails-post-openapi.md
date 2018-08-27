@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: PayPal
-x-complete: 1
+x-complete: 0
 info:
-  title: PayPal (Sandbox)
-  description: bring-payments-to-apps-mobile-and-social-with-adaptive-payments-bsandbox-api-b
+  title: Paypal Preapproval Details
+  description: Use the PreapprovalDetails API operation to obtain information about
+    an agreement between you and a sender for making payments on the sender???s behalf.
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
@@ -268,3 +270,17 @@ paths:
           description: OK
       tags:
       - Payments
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
